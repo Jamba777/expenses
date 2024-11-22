@@ -1,0 +1,88 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.egg-info/
+.eggs/
+.Python
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.so
+*.sqlite3
+*.pyo
+*.pyd
+*.pid
+
+# Environment variables
+.env
+.env.*
+
+# VSCode
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# IDEs
+.idea/
+.vscode/
+__pycache__/
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Static & Media files (if they are generated and should not be in the repo)
+staticfiles/
+media/
+
+# Docker
+*.env
+docker-compose.override.yml
